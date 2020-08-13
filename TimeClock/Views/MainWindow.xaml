@@ -15,21 +15,11 @@
     </Grid.RowDefinitions>
 
     <StatusBar Grid.Row="1">
-      <StatusBarItem>
-        <TextBlock Text="{Binding Now.CurrentTime, StringFormat=yyyy-MM-dd}"
-                   ToolTip="ISO date"/>
-      </StatusBarItem>
-      <Separator/>
-      
-      <StatusBarItem>
-        <TextBlock Width="660"/>
-      </StatusBarItem>
+      <StatusBarItem Content="{Binding Now.DisplayDate}"
+                     ToolTip="ISO date"/>
 
-      <Separator/>
-      <StatusBarItem>
-          <TextBlock Text="{Binding Now.CurrentTime, StringFormat=HH:mm}"/>
-      </StatusBarItem>
-      <StatusBarItem/>
+      <StatusBarItem Content="{Binding Now.DisplayTime}" 
+                     HorizontalAlignment="Right"/>
     </StatusBar>
 
   </Grid>
