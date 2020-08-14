@@ -13,22 +13,23 @@ The time should on right side visible.
 
 There are two solutions:
 
-**Solution 1**
+### Solution 1
 
 Using the `TextBlock`:
+
 ``` C#
     <StatusBar Grid.Row="1">
       <StatusBarItem>
         <TextBlock Text="{Binding Now.CurrentTime, StringFormat=yyyy-MM-dd}"
                    ToolTip="ISO date"/>
       </StatusBarItem>
-      
+
       <StatusBarItem HorizontalAlignment="Right">
           <TextBlock Text="{Binding Now.CurrentTime, StringFormat=HH:mm}"/>
       </StatusBarItem>
 ```
 
-**Solution 2**
+### Solution 2
 
 Using the `Content` causes that the `StringFormat` not working, so using the `DisplayDate` and `DisplayTime`:
 
@@ -37,15 +38,14 @@ Using the `Content` causes that the `StringFormat` not working, so using the `Di
       <StatusBarItem Content="{Binding Now.DisplayDate}"
                      ToolTip="ISO date"/>
 
-      <StatusBarItem Content="{Binding Now.DisplayTime}" 
+      <StatusBarItem Content="{Binding Now.DisplayTime}"
                      HorizontalAlignment="Right"/>
     </StatusBar>
 ```
 
 ### Keywords
+
 - `StatusBar`
 - Binding with `StringFormat`.
 - `INotifyProperyChanged`.
 - `Timer()' class.
-
-
