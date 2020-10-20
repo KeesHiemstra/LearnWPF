@@ -1,0 +1,27 @@
+﻿[
+  {
+    "Date": "2020-07-13",
+    "IsComplete": true,
+    "Articles": [
+      {
+        "Name": "Bananen"
+      },
+      {
+        "Name": "Groente",
+        "Number": 1
+      },
+      {
+        "Name": "Ui",
+        "Number": 1
+      },
+      {
+        "Name": "Yoghurt",
+        "Number": 1
+      },
+      {
+        "Name": "Melk",
+        "Number": 1
+      }
+    ]
+  }
+]

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeClock", "TimeClock\Time
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartWPF", "StartWPF\StartWPF.csproj", "{55D3D48F-B440-44C9-BCDF-B1404F546CB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintShoppingList", "MaintShoppingList\MaintShoppingList.csproj", "{7AE9CB82-1BE4-48DA-851C-AB0B6513675D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{55D3D48F-B440-44C9-BCDF-B1404F546CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D3D48F-B440-44C9-BCDF-B1404F546CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D3D48F-B440-44C9-BCDF-B1404F546CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE9CB82-1BE4-48DA-851C-AB0B6513675D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE9CB82-1BE4-48DA-851C-AB0B6513675D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE9CB82-1BE4-48DA-851C-AB0B6513675D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE9CB82-1BE4-48DA-851C-AB0B6513675D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
