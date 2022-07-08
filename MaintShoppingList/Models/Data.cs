@@ -41,7 +41,7 @@ namespace MaintShoppingList.Models
 			}
 
 			ShoppingLists = new ObservableCollection<ShoppingList>(shoppingLists
-				.OrderByDescending(x => x.Date)
+				.OrderBy(x => x.Date)
 				.ToList());
 		}
 

@@ -50,5 +50,13 @@ namespace MaintShoppingList
 		{
 			MV.SaveJson();
 		}
+
+		private void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+			ShoppingListsDataGrid.ScrollIntoView(
+				ShoppingListsDataGrid.Items[ShoppingListsDataGrid.Items.Count - 1]);
+			ShoppingListsDataGrid.SelectedItem = 
+				ShoppingListsDataGrid.Items[ShoppingListsDataGrid.Items.Count - 1];
+		}
 	}
 }

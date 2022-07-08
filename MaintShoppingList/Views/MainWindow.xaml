@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:MaintShoppingList.Models"
         mc:Ignorable="d"
         Closing="Window_Closing"
+        Loaded="Window_Loaded"
         Title="Shopping list" 
         Height="700" 
         Width="450"
